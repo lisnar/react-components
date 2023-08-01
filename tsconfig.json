@@ -1,0 +1,13 @@
+{
+  "include": ["src"],
+  "exclude": ["**/*.stories.*"],
+  "extends": "@tsconfig/strictest/tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "target": "esnext",
+    "jsx": "preserve",
+    "outDir": "dist",
+    "sourceMap": true,
+    "declaration": true
+  }
+}
